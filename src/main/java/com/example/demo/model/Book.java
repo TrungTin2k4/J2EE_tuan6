@@ -9,10 +9,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-
-
 public class Book {
-    private int id;
+    private Long id;
     private String title;
     private String author;
 }
